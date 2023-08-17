@@ -1,11 +1,19 @@
-import LoginTitle from './components/form/Title';
+import GlobalStyles from './styles/GlobalStyles';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Login from './components/Login/Login';
+
 function App() {
   return (
     <>
-      <div>olá indrive</div>
-      <LoginTitle content="Indrive" />
+      <GlobalStyles />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
 
 export default App;
+``;
