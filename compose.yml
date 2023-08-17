@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  indrive:
+    image: node:alpine
+    container_name: indrive-compose
+    entrypoint: /bin/sh
+    ports:
+      - 8000:8000
+    working_dir: /indrive
+    volumes:
+      - type: bind
+        source: ./
+        target: /indrive/
+    tty: true
