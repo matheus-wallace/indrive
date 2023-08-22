@@ -1,0 +1,32 @@
+.card__container {
+  position: relative;
+}
+
+.card__img {
+  border-radius: 10px;
+}
+
+.card__title {
+  color: #ffffff;
+}
+
+.card__title {
+  position: absolute;
+  top: 210px;
+  left: 10px;
+}
+
+.card__description__author {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.card__author {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.authorDetail {
+  font-weight: 700;
+}
