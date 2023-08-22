@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Spectral+SC:wght@400;500;700&display=swap');
+
+html {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  color: #727272;
+}
+
+img {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.dark {
+  background-color: #111118;
+  color: #c9c9c9;
+}
+
+.withe {
+  background-color: #ffffff;
+  color: #727272;
+}
