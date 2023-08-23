@@ -1,5 +1,17 @@
-.main__container {
+.login__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 10px 1fr;
   padding: 10rem 4rem;
+  max-width: 1200px;
+  gap: 4rem;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.login__detail::before {
+  content: '';
+  display: block;
+  height: 120%;
+  width: 2px;
+  background-color: #f57053;
 }
