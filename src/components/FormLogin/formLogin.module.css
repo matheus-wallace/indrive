@@ -1,0 +1,43 @@
+.form__description {
+  max-width: 22rem;
+  margin-bottom: 1rem;
+}
+
+.form__email {
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  font-weight: 700;
+}
+
+.form__login {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__password {
+  font-size: 1.25rem;
+  justify-self: end;
+  font-weight: 700;
+}
+
+.form__lostPassword {
+  margin: 1rem 0;
+  align-self: end;
+  color: #e8753d;
+  font-weight: 600;
+  justify-self: end;
+}
+.password__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__button__login {
+  padding: 1rem 1rem;
+}
