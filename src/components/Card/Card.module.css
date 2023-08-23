@@ -4,6 +4,7 @@
 
 .card__img {
   border-radius: 10px;
+  margin-bottom: 1.125rem;
 }
 
 .card__title {
@@ -16,10 +17,14 @@
   left: 10px;
 }
 
+.card__description {
+  margin-bottom: 0.5rem;
+}
+
 .card__description__author {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
 }
 
 .card__author {
