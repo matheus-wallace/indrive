@@ -14,7 +14,7 @@ const Card = () => {
         <h3 className={styles.card__author}>
           <span className={styles.authorDetail}>Autor: </span>Matheus Pereira
         </h3>
-        <GhostButton text={'Ler artigo'} />
+        <GhostButton>Ler artigo</GhostButton>
       </div>
     </article>
   );
