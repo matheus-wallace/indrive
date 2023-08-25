@@ -43,4 +43,29 @@
 .form__button button {
   flex: 1;
   height: 2.5rem;
+  margin-bottom: 1.56rem;
+}
+
+.form__other {
+  display: flex;
+  color: #343434;
+  align-items: center;
+  gap: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.form__other::after,
+.form__other::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #e8753d;
+}
+
+.form__signup {
+  align-self: center;
+}
+.form__signup a {
+  color: #e8753d;
 }

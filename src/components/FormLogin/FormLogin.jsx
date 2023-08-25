@@ -31,6 +31,11 @@ const FormLogin = () => {
           <GhostButton>Login</GhostButton>
           <ButtonDefault>Cadastrar</ButtonDefault>
         </div>
+        <p className={styles.form__other}>ou</p>
+
+        <p className={styles.form__signup}>
+          Você quer criar uma <a href="#">Conta?</a>
+        </p>
       </form>
     </section>
   );
