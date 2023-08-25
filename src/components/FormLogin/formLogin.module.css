@@ -36,8 +36,11 @@
 .form__button {
   display: flex;
   justify-content: space-between;
+  margin-top: 1.25rem;
+  gap: 0.94rem;
 }
 
-.form__button__login {
-  padding: 1rem 1rem;
+.form__button button {
+  flex: 1;
+  height: 2.5rem;
 }
