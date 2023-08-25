@@ -10,8 +10,9 @@ const FormLogin = () => {
     <section className={styles.form__container}>
       <Title size={5} text="Indrive" />
       <p className={styles.form__description}>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s
       </p>
       <form className={styles.form__login}>
         <label htmlFor="Email" className={styles.form__email}>
@@ -28,8 +29,12 @@ const FormLogin = () => {
         </div>
         <Input type="password" id="password" />
         <div className={styles.form__button}>
-          <GhostButton text="Entrar" className={styles.form__button__login} />
-          <ButtonDefault text="Cadastrar" />
+          <GhostButton className={styles.form__button__login}>
+            Login
+          </GhostButton>
+          <ButtonDefault className={styles.form__button__signup}>
+            Cadastrar
+          </ButtonDefault>
         </div>
       </form>
     </section>
