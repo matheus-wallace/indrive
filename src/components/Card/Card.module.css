@@ -4,17 +4,11 @@
 
 .card__img {
   border-radius: 10px;
-  margin-bottom: 1.125rem;
+  margin-bottom: 0.5rem;
 }
 
 .card__title {
-  color: #ffffff;
-}
-
-.card__title {
-  position: absolute;
-  top: 210px;
-  left: 10px;
+  margin-bottom: 7px;
 }
 
 .card__description {
