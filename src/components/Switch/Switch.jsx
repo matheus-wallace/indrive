@@ -4,7 +4,7 @@ import { ReactComponent as Moon } from '../../assets/login/moon-desktop.svg';
 import styles from './Switch.module.css';
 
 const Switch = () => {
-  const [theme, setTheme] = useState(false);
+  const [theme, setTheme] = useState(true);
 
   const toogleTheme = () => {
     setTheme((prevState) => !prevState);
