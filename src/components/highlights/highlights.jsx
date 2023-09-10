@@ -7,7 +7,7 @@ const Highlights = () => {
   return (
     <section className={styles.Highlights}>
       <div className={styles.high}>
-        <Subtitle subtitle={'Destaques'} />
+        <Subtitle>Destaques</Subtitle>
         <Switch />
       </div>
       <div className={styles.highlights__container}>
