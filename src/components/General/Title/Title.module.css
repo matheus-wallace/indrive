@@ -1,4 +1,4 @@
 .title {
   font-family: 'Spectral SC', serif;
-  color: #431500;
+  color: var(--title);
 }
