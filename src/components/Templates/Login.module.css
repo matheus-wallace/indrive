@@ -8,10 +8,10 @@
   align-content: center;
 }
 
-.login__detail::before {
+.login__separator::before {
   content: '';
   display: block;
   height: 120%;
   width: 2px;
-  background-color: #f57053;
+  background-color: var(--separator);
 }

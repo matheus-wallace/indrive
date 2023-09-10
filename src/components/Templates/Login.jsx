@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <section className={styles.login__container}>
       <Highlights />
-      <div className={styles.login__detail}></div>
+      <div className={styles.login__separator}></div>
       <FormLogin />
     </section>
   );

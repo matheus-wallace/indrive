@@ -1,15 +1,16 @@
 .button {
-  background-color: #ffffff;
-  color: #e8753d;
-  border: 2px solid #e8753d;
+  background-color: var(--ghost-button-background);
+  color: var(--ghost-button-color);
+  border: 2px solid var(--ghost-button-border);
   border-radius: 2px;
   padding: 6px 25px;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .button:hover {
-  background-color: #e8753d;
-  color: #ffffff;
+  background-color: var(--button-background);
+  color: var(--button-text-color);
   transition: 0.2s;
 }
 

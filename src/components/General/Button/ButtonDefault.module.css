@@ -1,8 +1,9 @@
 .button {
-  background-color: #e8753d;
-  color: #ffffff;
+  background-color: var(--button-background);
+  color: var( --button-text-color);
   border-radius: 2px;
   padding: 6px 25px;
   border: none;
   cursor: pointer;
+  font-weight: 700;
 }

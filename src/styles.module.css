@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Spectral+SC:wght@400;500;700&display=swap');
 
+:root {
+  --background: #ffffff;
+  --text-primary: #727272;
+  --title: #431500;
+  --separator: #f57053;
+  --subtitle: #343434;
+  --footer: #e28a5e;
+  --button-confirm: #36964b;
+  --link: #f57053;
+  --detail-title: #f57053;
+  --button-background: #f57053;
+  --button-text-color: #ffffff;
+  --ghost-button-border: #f57053;
+  --ghost-button-color: #f57053;
+  --ghost-button-background: #ffffff;
+}
+
+[data-theme='dark'] {
+  --background: #111118;
+  --text-primary: #f0f0f0;
+  --title: #95acf3;
+  --separator: #95acf3;
+  --subtitle: #343434;
+  --footer: #00030f;
+  --link: #95acf3;
+  --button-background: #3b4d85;
+  --button-text-color: #ffffff;
+  --detail-title: #5470d2;
+  --ghost-button-border: #3b4d85;
+  --ghost-button-color: #ffffff;
+  --ghost-button-background: #111118;
+}
+
 html {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
@@ -30,12 +63,6 @@ img {
   max-width: 100%;
 }
 
-.dark {
-  background-color: #111118;
-  color: #c9c9c9;
-}
-
-.withe {
-  background-color: #ffffff;
-  color: #727272;
+.app {
+  background-color: var(--background);
 }
