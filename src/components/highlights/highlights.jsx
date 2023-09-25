@@ -1,7 +1,7 @@
 import Subtitle from '../General/Subtitle/Subtitle';
 import Card from '../Card/Card';
 import styles from './highlights.module.css';
-import Switch from '../Switch/Switch';
+import { Switch } from '../Switch/Switch';
 
 const Highlights = () => {
   return (

@@ -1,16 +1,14 @@
 .login__container {
   display: grid;
   grid-template-columns: 1.5fr 10px 1fr;
-  padding: 10rem 4rem;
   max-width: 1200px;
   gap: 4rem;
-  margin: 0 auto;
 }
 
 .login__separator::before {
   content: '';
   display: block;
-  height: 120%;
+  height: 106%;
   width: 2px;
   background-color: var(--separator);
 }
