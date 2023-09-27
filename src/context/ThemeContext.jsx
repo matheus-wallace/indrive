@@ -5,11 +5,17 @@ export const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
   const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
-
+  const [theme, setTheme] = useLocalStorage(
+    'theme',
+    defaultDark ? 'dark' : 'light',
+  );
   const toogleTheme = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark');
   };
 
-  return <ThemeContext.Provider value={(theme, toogleTheme)}>{children}</ThemeContext.Provider>;
+  return (
+    <ThemeContext.Provider value={{ theme, toogleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
 };
