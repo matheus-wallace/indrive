@@ -1,25 +1,15 @@
 import { ReactComponent as Sun } from '../../assets/login/sun-desktop.svg';
 import { ReactComponent as Moon } from '../../assets/login/moon-desktop.svg';
 import styles from './Switch.module.css';
-import useLocalStorage from 'use-local-storage';
-import { createContext } from 'react';
-
-const ThemeContext = createContext();
+import { useContext } from 'react';
+import { ThemeContext } from '../../context/ThemeContext';
 
 const Switch = () => {
-  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
-
-  const toogleTheme = () => {
-    setTheme((prevState) => !prevState);
-  };
-
+  const { theme, toogleTheme } = useContext(ThemeContext);
   return (
-    <ThemeContext.Provider value={theme}>
-      <div className={styles.switch} onClick={toogleTheme}>
-        {theme ? <Moon /> : <Sun />}
-      </div>
-    </ThemeContext.Provider>
+    <div className={styles.switch} onClick={toogleTheme}>
+      {theme === 'dark' ? <Moon /> : <Sun />}
+    </div>
   );
 };
 
